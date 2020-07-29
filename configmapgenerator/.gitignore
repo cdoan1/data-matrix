@@ -1,1 +1,3 @@
 *.bak
+config.yaml
+config.yaml.*

@@ -1,14 +1,23 @@
 #!/bin/bash
 
-if [ -z ${SPOKE_CLUSTER_NAME} ] || [ -z ${OBSERVATORIUM_URL} ]; then
+if [ -z ${OBSERVATORIUM_URL} ]; then
   echo ""
-  echo "SPOKE_CLUSTER_NAME environment variable is undefined and required."
   echo "OBSERVATORIUM_URL environment variable is undefined and required."
   exit 1
 fi
 
-sed -i.bak 's|        replacement: .*$|        replacement: '${SPOKE_CLUSTER_NAME}'|g' config.yaml && echo "updated config.yaml ..."
+
+clusterID=$(oc get clusterversion -o jsonpath='{.items[].spec.clusterID}{"\n"}')
+
+if [ -z ${clusterID} ]; then
+  echo "clusterID not defined. Ensure that you have kubectl sourced ..."
+  exit 1
+fi
+
+sed -i.bak 's|        replacement: .*$|        replacement: '${clusterID}'|g' config.yaml && echo "updated config.yaml ..."
 sed -i.bak 's|    - url: .*$|    - url: '${OBSERVATORIUM_URL}'|g' config.yaml && echo "updated config.yaml ..."
 
-kubectl kustomize .
+echo "clusterID: ${clusterID}"
 
+kubectl kustomize .
+# kubectl apply -k .
