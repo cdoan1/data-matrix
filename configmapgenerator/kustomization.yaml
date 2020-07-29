@@ -1,0 +1,19 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+configMapGenerator:
+- name: cluster-monitoring-config
+  namespace: openshift-monitoring
+  files:
+  - config.yaml
+
+generatorOptions:
+  labels:
+    kustomize.generated.resources: "true"
+  annotations:
+    kustomize.generated.resource: "true"
+  disableNameSuffixHash: true
+
+commonAnnotations:
+  note: "generated from kustomize"
+
