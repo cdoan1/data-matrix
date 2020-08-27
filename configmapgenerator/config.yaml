@@ -1,9 +1,9 @@
 prometheusK8s:
   remoteWrite:
-    - url: 
+    - url: http://observatorium-api-acm-monitoring.apps.marco.dev05.red-chesterfield.com/api/metrics/v1/test/api/v1/receive
       writeRelabelConfigs:
       - sourceLabels: [__name__]
-        replacement: 
+        replacement: 82c8175e-79bf-434d-8d50-72f93b212c1e
         targetLabel: cluster
       - sourceLabels: [__name__]
         action: keep
