@@ -9,3 +9,4 @@ date,release,driver,provider,topology,result
 9,quay.io/openshift-release-dev/ocp-release:4.5.2-x86_64,2.0.1,baremetal,spoke,pass
 10,quay.io/openshift-release-dev/ocp-release:4.5.2-x86_64,2.0.1,baremetal,spoke,pass
 
+2020-08-24T14:26:58Z,quay.io/openshift-release-dev/ocp-release:4.5.7-x86_64,2.0.1,baremetal,spoke,['True']
