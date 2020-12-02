@@ -1,127 +1,127 @@
 Tests,Results
-'Application can be created on resource git from the wizard',❌
-'Application can be created on resource helm from the wizard',👍
-'Application can be created on resource objectstore from the wizard',❌
-'Application channels, subscription and placementrule - should be validated - git: ui-git-6483',❌
-'Application channels, subscription and placementrule - should be validated - helm: ui-helm-6483',❌
-'Application channels, subscription and placementrule - should be validated - objectstore: ui-obj-6483',❌
-'Application get the name of the managed OCP cluster',👍
-'Application resource should be validated on the target cluster',👍
-'Application should be validated from the advanced configuration tables - git: ui-git-6483',❌
-'Application should be validated from the advanced configuration tables - helm: ui-helm-6483',👍
-'Application should be validated from the advanced configuration tables - objectstore: ui-obj-6483',❌
-'Application should be validated from the resource table - git: ui-git-6483',❌
-'Application should be validated from the resource table - helm: ui-helm-6483',👍
-'Application should be validated from the resource table - objectstore: ui-obj-6483',❌
-'Application should be validated from the topology - git: ui-git-6483',❌
-'Application should be validated from the topology - helm: ui-helm-6483',❌
-'Application should be validated from the topology - objectstore: ui-obj-6483',❌
-'Application timewindow - should be validated - git: ui-git-6483',❌
-'Application timewindow - should be validated - helm: ui-helm-6483',👍
-'Application timewindow - should be validated - objectstore: ui-obj-6483',❌
-'Cleanup resouces delete namepsace ui-git-6483-ns on hub cluster',❌
-'Cleanup resouces delete namepsace ui-helm-6483-ns on hub cluster',👍
-'Cleanup resouces delete namepsace ui-obj-6483-ns on hub cluster',❌
-'Cleanup resouces delete namespace ui-git-6483-ns on target cluster',👍
-'Cleanup resouces delete namespace ui-helm-6483-ns on target cluster',👍
-'Cleanup resouces delete namespace ui-obj-6483-ns on target cluster',👍
-'Delete application ui-git-6483 should be deleted from UI',❌
-'Delete application ui-helm-6483 should be deleted from UI',👍
-'Delete application ui-obj-6483 should be deleted from UI',❌
-'Edit application ui-git-6483 should be editable',❌
-'Edit application ui-git-6483 should be verified after edit',❌
-'Edit application ui-helm-6483 should be editable',👍
-'Edit application ui-helm-6483 should be verified after edit',👍
-'Edit application ui-obj-6483 should be editable',❌
-'Edit application ui-obj-6483 should be verified after edit',❌
-'GRC All policy page: Create, Search, Verify details of policy',👍
-'GRC All policy page: Delete test policy',👍
-'GRC All policy page: Test pagination',👍
-'GRC All policy page: Verify summary table',👍
-'GRC Cert policy: cert policy should show compliant',🔵
-'GRC Cert policy: clean up',🔵
-'GRC Cert policy: create cert policy and should show violation',🔵
-'GRC Cert policy: create issuer and certificate ',🔵
-'GRC Cert policy: update certificate and secret',🔵
-'GRC Config policy: all objects of kind / does not exist',👍
-'GRC Config policy: all objects of kind / exists',👍
-'GRC Config policy: single object check (musthave+inform) and then enforce it using UI',👍
-'GRC Config policy: single object check (mustnothave+enforce) and then inform it using UI',👍
-'GRC Create policy page: Updating YAML in editor',👍
-'GRC Create policy page: Verify templates',👍
-'GRC Disable policy: test policy disable + enable',👍
-'GRC IAM policy: clean up',👍
-'GRC IAM policy: create clusterrolebinding as should show violation',👍
-'GRC IAM policy: create iam-policy',👍
-'GRC IAM policy: delete clusterrolebinding as should show compliant',👍
-'GRC RBAC: Clean up',👍
-'GRC RBAC: Cluster-wide admin user',👍
-'GRC RBAC: Cluster-wide cluster-admin user',👍
-'GRC RBAC: Cluster-wide edit user',👍
-'GRC RBAC: Cluster-wide view user',👍
-'GRC RBAC: Cluster-wide view user in a group',👍
-'GRC RBAC: Namespaced admin user',👍
-'GRC RBAC: Namespaced cluster-admin user',👍
-'GRC RBAC: Namespaced edit user',👍
-'GRC RBAC: Namespaced view user',👍
-'GRC RBAC: Namespaced view user in a group',👍
-'Search and validate all clusters have default namespace "after all" hook for "should be able to find the saved search after logout and re-login"',❌
-'Search and validate all clusters have default namespace should be able to find the saved search after logout and re-login',❌
-'Search and validate all clusters have default namespace should be able to save current search',👍
-'Search and validate all clusters have default namespace should find each managed cluster has default namespace',👍
-'Search and validate all clusters have default namespace should find open-cluster-management-agent namespace exists',👍
-'Search in Local Cluster "after all" hook for "should load the search page"',❌
-'Search in Local Cluster "before all" hook for "should load the search page"',❌
-'Search in Local Cluster create namespace and deployment resources should delete deployment',👍
-'Search in Local Cluster create namespace and deployment resources should delete namespace',👍
-'Search in Local Cluster create namespace and deployment resources should delete pod',👍
-'Search in Local Cluster create namespace and deployment resources should have expected count of resource tiles',👍
-'Search in Local Cluster create namespace and deployment resources should scale deployment',👍
-'Search in Local Cluster create namespace and deployment resources should see pod logs',👍
-'Search in Local Cluster create namespace and deployment resources should work kind filter for deployment',👍
-'Search in Local Cluster create namespace and deployment resources should work kind filter for pod',👍
-'Search in Local Cluster should load the search page',👍
-'Search in Local Cluster should not see any cluster and namespace',👍
-'Search in Managed Cluster "after all" hook for "should load the search page"',❌
-'Search in Managed Cluster "before all" hook for "should load the search page"',❌
-'Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "label" filter with "next suggestion" value',👍
-'Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "name" filter with "next suggestion" value',👍
-'Search using filters Search using "kind" filter should filter by multiple values',👍
-'Search using filters Search using "kind" filter should filter by next suggestion',👍
-'Search using filters Search using "kind" filter should suggest values',👍
-'Search using filters Search using "label" filter should filter by next suggestion',👍
-'Search using filters Search using "label" filter should suggest values',👍
-'Search using filters Search using "name" filter "after all" hook for "should suggest values"',❌
-'Search using filters Search using "name" filter "before all" hook for "should suggest values"',❌
-'Search using filters Search using "name" filter should filter by next suggestion',👍
-'Search using filters Search using "name" filter should suggest values',👍
-'Search using filters Search using "role" filter should filter by master',👍
-'Search using filters Search using "role" filter should filter by multiple values',👍
-'Search using filters Search using "role" filter should filter by worker',👍
-'Search using filters Search using "role" filter should suggest values',👍
-'Search using filters Search using "status" filter should filter by multiple values',👍
-'Search using filters Search using "status" filter should filter by next suggestion',👍
-'Search using filters Search using "status" filter should suggest values',👍
-'Verify the suggested search templates "after all" hook for "should see the created last hour template & search tag in search items"',❌
-'Verify the suggested search templates "before all" hook for "should see the created last hour template & search tag in search items"',❌
-'Verify the suggested search templates should see the created last hour template & search tag in search items',👍
-'Verify the suggested search templates should see the unhealthy pods template & search tag in search items',👍
-'Verify the suggested search templates should see the workload template & related items details',👍
-'Verify the suggested search templates should see the workloads template & search tag in search items',👍
-'Visual Web Terminal: Verify KUI getting started command',👍
-'Visual Web Terminal: Verify KUI multiple tabs',👍
-'Visual Web Terminal: Verify bash like commands are disabled - plugin-kui-addons',👍
-'Visual Web Terminal: Verify commands are disabled - rbash',👍
-'Visual Web Terminal: Verify core support commands are disabled - plugin-kui-addons',👍
-'Visual Web Terminal: Verify core support commands for window are disabled - plugin-kui-addons',👍
-'Visual Web Terminal: Verify k8s commands are disabled - plugin-kui-addons',👍
-'Visual Web Terminal: Verify kubectl',👍
-'Visual Web Terminal: Verify oc',👍
-'Visual Web Terminal: Verify product header',👍
-'Visual Web Terminal: Verify supported CLIs can execute',👍
-'Visual Web Terminal: Verify supported themes',👍
-'Visual Web Terminal: Verify user home folder permissions',👍
-'Welcome page should be validated for the links on main page',👍
-'Welcome page should be validated for the menu items on left nav bar',👍
-'Welcome page should be validated for the nav icons on the header',👍
-'Welcome page should load',👍
+Application can be created on resource git from the wizard,❌
+Application can be created on resource helm from the wizard,👍
+Application can be created on resource objectstore from the wizard,❌
+Application channels, subscription and placementrule - should be validated - git: ui-git-6483,❌
+Application channels, subscription and placementrule - should be validated - helm: ui-helm-6483,❌
+Application channels, subscription and placementrule - should be validated - objectstore: ui-obj-6483,❌
+Application get the name of the managed OCP cluster,👍
+Application resource should be validated on the target cluster,👍
+Application should be validated from the advanced configuration tables - git: ui-git-6483,❌
+Application should be validated from the advanced configuration tables - helm: ui-helm-6483,👍
+Application should be validated from the advanced configuration tables - objectstore: ui-obj-6483,❌
+Application should be validated from the resource table - git: ui-git-6483,❌
+Application should be validated from the resource table - helm: ui-helm-6483,👍
+Application should be validated from the resource table - objectstore: ui-obj-6483,❌
+Application should be validated from the topology - git: ui-git-6483,❌
+Application should be validated from the topology - helm: ui-helm-6483,❌
+Application should be validated from the topology - objectstore: ui-obj-6483,❌
+Application timewindow - should be validated - git: ui-git-6483,❌
+Application timewindow - should be validated - helm: ui-helm-6483,👍
+Application timewindow - should be validated - objectstore: ui-obj-6483,❌
+Cleanup resouces delete namepsace ui-git-6483-ns on hub cluster,❌
+Cleanup resouces delete namepsace ui-helm-6483-ns on hub cluster,👍
+Cleanup resouces delete namepsace ui-obj-6483-ns on hub cluster,❌
+Cleanup resouces delete namespace ui-git-6483-ns on target cluster,👍
+Cleanup resouces delete namespace ui-helm-6483-ns on target cluster,👍
+Cleanup resouces delete namespace ui-obj-6483-ns on target cluster,👍
+Delete application ui-git-6483 should be deleted from UI,❌
+Delete application ui-helm-6483 should be deleted from UI,👍
+Delete application ui-obj-6483 should be deleted from UI,❌
+Edit application ui-git-6483 should be editable,❌
+Edit application ui-git-6483 should be verified after edit,❌
+Edit application ui-helm-6483 should be editable,👍
+Edit application ui-helm-6483 should be verified after edit,👍
+Edit application ui-obj-6483 should be editable,❌
+Edit application ui-obj-6483 should be verified after edit,❌
+GRC All policy page: Create, Search, Verify details of policy,👍
+GRC All policy page: Delete test policy,👍
+GRC All policy page: Test pagination,👍
+GRC All policy page: Verify summary table,👍
+GRC Cert policy: cert policy should show compliant,🔵
+GRC Cert policy: clean up,🔵
+GRC Cert policy: create cert policy and should show violation,🔵
+GRC Cert policy: create issuer and certificate ,🔵
+GRC Cert policy: update certificate and secret,🔵
+GRC Config policy: all objects of kind / does not exist,👍
+GRC Config policy: all objects of kind / exists,👍
+GRC Config policy: single object check (musthave+inform) and then enforce it using UI,👍
+GRC Config policy: single object check (mustnothave+enforce) and then inform it using UI,👍
+GRC Create policy page: Updating YAML in editor,👍
+GRC Create policy page: Verify templates,👍
+GRC Disable policy: test policy disable + enable,👍
+GRC IAM policy: clean up,👍
+GRC IAM policy: create clusterrolebinding as should show violation,👍
+GRC IAM policy: create iam-policy,👍
+GRC IAM policy: delete clusterrolebinding as should show compliant,👍
+GRC RBAC: Clean up,👍
+GRC RBAC: Cluster-wide admin user,👍
+GRC RBAC: Cluster-wide cluster-admin user,👍
+GRC RBAC: Cluster-wide edit user,👍
+GRC RBAC: Cluster-wide view user,👍
+GRC RBAC: Cluster-wide view user in a group,👍
+GRC RBAC: Namespaced admin user,👍
+GRC RBAC: Namespaced cluster-admin user,👍
+GRC RBAC: Namespaced edit user,👍
+GRC RBAC: Namespaced view user,👍
+GRC RBAC: Namespaced view user in a group,👍
+Search and validate all clusters have default namespace "after all" hook for "should be able to find the saved search after logout and re-login",❌
+Search and validate all clusters have default namespace should be able to find the saved search after logout and re-login,❌
+Search and validate all clusters have default namespace should be able to save current search,👍
+Search and validate all clusters have default namespace should find each managed cluster has default namespace,👍
+Search and validate all clusters have default namespace should find open-cluster-management-agent namespace exists,👍
+Search in Local Cluster "after all" hook for "should load the search page",❌
+Search in Local Cluster "before all" hook for "should load the search page",❌
+Search in Local Cluster create namespace and deployment resources should delete deployment,👍
+Search in Local Cluster create namespace and deployment resources should delete namespace,👍
+Search in Local Cluster create namespace and deployment resources should delete pod,👍
+Search in Local Cluster create namespace and deployment resources should have expected count of resource tiles,👍
+Search in Local Cluster create namespace and deployment resources should scale deployment,👍
+Search in Local Cluster create namespace and deployment resources should see pod logs,👍
+Search in Local Cluster create namespace and deployment resources should work kind filter for deployment,👍
+Search in Local Cluster create namespace and deployment resources should work kind filter for pod,👍
+Search in Local Cluster should load the search page,👍
+Search in Local Cluster should not see any cluster and namespace,👍
+Search in Managed Cluster "after all" hook for "should load the search page",❌
+Search in Managed Cluster "before all" hook for "should load the search page",❌
+Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "label" filter with "next suggestion" value,👍
+Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "name" filter with "next suggestion" value,👍
+Search using filters Search using "kind" filter should filter by multiple values,👍
+Search using filters Search using "kind" filter should filter by next suggestion,👍
+Search using filters Search using "kind" filter should suggest values,👍
+Search using filters Search using "label" filter should filter by next suggestion,👍
+Search using filters Search using "label" filter should suggest values,👍
+Search using filters Search using "name" filter "after all" hook for "should suggest values",❌
+Search using filters Search using "name" filter "before all" hook for "should suggest values",❌
+Search using filters Search using "name" filter should filter by next suggestion,👍
+Search using filters Search using "name" filter should suggest values,👍
+Search using filters Search using "role" filter should filter by master,👍
+Search using filters Search using "role" filter should filter by multiple values,👍
+Search using filters Search using "role" filter should filter by worker,👍
+Search using filters Search using "role" filter should suggest values,👍
+Search using filters Search using "status" filter should filter by multiple values,👍
+Search using filters Search using "status" filter should filter by next suggestion,👍
+Search using filters Search using "status" filter should suggest values,👍
+Verify the suggested search templates "after all" hook for "should see the created last hour template & search tag in search items",❌
+Verify the suggested search templates "before all" hook for "should see the created last hour template & search tag in search items",❌
+Verify the suggested search templates should see the created last hour template & search tag in search items,👍
+Verify the suggested search templates should see the unhealthy pods template & search tag in search items,👍
+Verify the suggested search templates should see the workload template & related items details,👍
+Verify the suggested search templates should see the workloads template & search tag in search items,👍
+Visual Web Terminal: Verify KUI getting started command,👍
+Visual Web Terminal: Verify KUI multiple tabs,👍
+Visual Web Terminal: Verify bash like commands are disabled - plugin-kui-addons,👍
+Visual Web Terminal: Verify commands are disabled - rbash,👍
+Visual Web Terminal: Verify core support commands are disabled - plugin-kui-addons,👍
+Visual Web Terminal: Verify core support commands for window are disabled - plugin-kui-addons,👍
+Visual Web Terminal: Verify k8s commands are disabled - plugin-kui-addons,👍
+Visual Web Terminal: Verify kubectl,👍
+Visual Web Terminal: Verify oc,👍
+Visual Web Terminal: Verify product header,👍
+Visual Web Terminal: Verify supported CLIs can execute,👍
+Visual Web Terminal: Verify supported themes,👍
+Visual Web Terminal: Verify user home folder permissions,👍
+Welcome page should be validated for the links on main page,👍
+Welcome page should be validated for the menu items on left nav bar,👍
+Welcome page should be validated for the nav icons on the header,👍
+Welcome page should load,👍
