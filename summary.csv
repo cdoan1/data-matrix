@@ -2,9 +2,9 @@ Tests,Results
 Application can be created on resource git from the wizard,❌
 Application can be created on resource helm from the wizard,👍
 Application can be created on resource objectstore from the wizard,❌
-Application channels, subscription and placementrule - should be validated - git: ui-git-6483,❌
-Application channels, subscription and placementrule - should be validated - helm: ui-helm-6483,❌
-Application channels, subscription and placementrule - should be validated - objectstore: ui-obj-6483,❌
+Application channels subscription and placementrule - should be validated - git: ui-git-6483,❌
+Application channels subscription and placementrule - should be validated - helm: ui-helm-6483,❌
+Application channels subscription and placementrule - should be validated - objectstore: ui-obj-6483,❌
 Application get the name of the managed OCP cluster,👍
 Application resource should be validated on the target cluster,👍
 Application should be validated from the advanced configuration tables - git: ui-git-6483,❌
@@ -34,7 +34,7 @@ Edit application ui-helm-6483 should be editable,👍
 Edit application ui-helm-6483 should be verified after edit,👍
 Edit application ui-obj-6483 should be editable,❌
 Edit application ui-obj-6483 should be verified after edit,❌
-GRC All policy page: Create, Search, Verify details of policy,👍
+GRC All policy page: Create Search Verify details of policy,👍
 GRC All policy page: Delete test policy,👍
 GRC All policy page: Test pagination,👍
 GRC All policy page: Verify summary table,👍
