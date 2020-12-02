@@ -65,13 +65,13 @@ GRC RBAC: Namespaced cluster-admin user,👍
 GRC RBAC: Namespaced edit user,👍
 GRC RBAC: Namespaced view user,👍
 GRC RBAC: Namespaced view user in a group,👍
-Search and validate all clusters have default namespace "after all" hook for "should be able to find the saved search after logout and re-login",❌
+Search and validate all clusters have default namespace 'after all' hook for 'should be able to find the saved search after logout and re-login',❌
 Search and validate all clusters have default namespace should be able to find the saved search after logout and re-login,❌
 Search and validate all clusters have default namespace should be able to save current search,👍
 Search and validate all clusters have default namespace should find each managed cluster has default namespace,👍
 Search and validate all clusters have default namespace should find open-cluster-management-agent namespace exists,👍
-Search in Local Cluster "after all" hook for "should load the search page",❌
-Search in Local Cluster "before all" hook for "should load the search page",❌
+Search in Local Cluster 'after all' hook for 'should load the search page',❌
+Search in Local Cluster 'before all' hook for 'should load the search page',❌
 Search in Local Cluster create namespace and deployment resources should delete deployment,👍
 Search in Local Cluster create namespace and deployment resources should delete namespace,👍
 Search in Local Cluster create namespace and deployment resources should delete pod,👍
@@ -82,28 +82,28 @@ Search in Local Cluster create namespace and deployment resources should work ki
 Search in Local Cluster create namespace and deployment resources should work kind filter for pod,👍
 Search in Local Cluster should load the search page,👍
 Search in Local Cluster should not see any cluster and namespace,👍
-Search in Managed Cluster "after all" hook for "should load the search page",❌
-Search in Managed Cluster "before all" hook for "should load the search page",❌
-Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "label" filter with "next suggestion" value,👍
-Search using filters Search using "kind" filter should filter by combination with "next suggestion" value and "name" filter with "next suggestion" value,👍
-Search using filters Search using "kind" filter should filter by multiple values,👍
-Search using filters Search using "kind" filter should filter by next suggestion,👍
-Search using filters Search using "kind" filter should suggest values,👍
-Search using filters Search using "label" filter should filter by next suggestion,👍
-Search using filters Search using "label" filter should suggest values,👍
-Search using filters Search using "name" filter "after all" hook for "should suggest values",❌
-Search using filters Search using "name" filter "before all" hook for "should suggest values",❌
-Search using filters Search using "name" filter should filter by next suggestion,👍
-Search using filters Search using "name" filter should suggest values,👍
-Search using filters Search using "role" filter should filter by master,👍
-Search using filters Search using "role" filter should filter by multiple values,👍
-Search using filters Search using "role" filter should filter by worker,👍
-Search using filters Search using "role" filter should suggest values,👍
-Search using filters Search using "status" filter should filter by multiple values,👍
-Search using filters Search using "status" filter should filter by next suggestion,👍
-Search using filters Search using "status" filter should suggest values,👍
-Verify the suggested search templates "after all" hook for "should see the created last hour template & search tag in search items",❌
-Verify the suggested search templates "before all" hook for "should see the created last hour template & search tag in search items",❌
+Search in Managed Cluster 'after all' hook for 'should load the search page',❌
+Search in Managed Cluster 'before all' hook for 'should load the search page',❌
+Search using filters Search using 'kind' filter should filter by combination with 'next suggestion' value and 'label' filter with 'next suggestion' value,👍
+Search using filters Search using 'kind' filter should filter by combination with 'next suggestion' value and 'name' filter with 'next suggestion' value,👍
+Search using filters Search using 'kind' filter should filter by multiple values,👍
+Search using filters Search using 'kind' filter should filter by next suggestion,👍
+Search using filters Search using 'kind' filter should suggest values,👍
+Search using filters Search using 'label' filter should filter by next suggestion,👍
+Search using filters Search using 'label' filter should suggest values,👍
+Search using filters Search using 'name' filter 'after all' hook for 'should suggest values',❌
+Search using filters Search using 'name' filter 'before all' hook for 'should suggest values',❌
+Search using filters Search using 'name' filter should filter by next suggestion,👍
+Search using filters Search using 'name' filter should suggest values,👍
+Search using filters Search using 'role' filter should filter by master,👍
+Search using filters Search using 'role' filter should filter by multiple values,👍
+Search using filters Search using 'role' filter should filter by worker,👍
+Search using filters Search using 'role' filter should suggest values,👍
+Search using filters Search using 'status' filter should filter by multiple values,👍
+Search using filters Search using 'status' filter should filter by next suggestion,👍
+Search using filters Search using 'status' filter should suggest values,👍
+Verify the suggested search templates 'after all' hook for 'should see the created last hour template & search tag in search items',❌
+Verify the suggested search templates 'before all' hook for 'should see the created last hour template & search tag in search items',❌
 Verify the suggested search templates should see the created last hour template & search tag in search items,👍
 Verify the suggested search templates should see the unhealthy pods template & search tag in search items,👍
 Verify the suggested search templates should see the workload template & related items details,👍
